@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="canonical" href="https://ge.movie/movie/49764/adamiani-oboba-axali-dge-2026-qartulad">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>multi media</h1>
+    </header>
+
+    <main>
+        <section>
+            <h3>audio</h3>
+            <audio controls>
+                <source src="./assets/Perche Ti Amo – DJ LUNESA ft. Enzo Vieri 🔥 Love Without Limits ❤️_🔥.mp3" type="audio/mpeg">
+                თქვენს ბრაუზერს აუდიოს მხარდაჭერა არ აქვს.
+            </audio>
+
+            <h3>video</h3>
+            <video width="640" controls muted loop poster="./assets/image.png">
+                <source src="./assets/Perche Ti Amo – DJ LUNESA ft. Enzo Vieri 🔥 Love Without Limits ❤️_🔥.mp4" type="video/mp4">
+                თქვენს ბრაუზერს ვიდეოს მხარდაჭერა არ აქვს.
+            </video>
+
+            <h3>location</h3>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d381144.0629384458!2d44.477120926519035!3d41.72725109970277!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40440cd7e64f626b%3A0x61d084ede2576ea3!2z4YOX4YOR4YOY4YOa4YOY4YOh4YOY!5e0!3m2!1ska!2sge!4v1792659246483!5m2!1ska!2sge" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+        </section>
+
+        <section>
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>პირადი ინფორმაცია</legend>
+                    <div class="row">
+                        <label for="name">სახელი</label>
+                        <input type="text" id="name" name="name" placeholder="შეიყვანეთ სახელი" required>
+                    </div>
+                    <div class="row">
+                        <label for="email">ელფოსტა</label>
+                        <input type="email" name="email" id="email" placeholder="example@gmail.com" required>
+                    </div>
+                    <div class="row">
+                        <label for="age">ასაკი</label>
+                        <input type="number" name="age" id="age" min="0" max="100">
+                    </div>
+                    <div class="row">
+                        <label for="birthday">დაბადების თარიღი</label>
+                        <input type="date" name="birthday" id="birthday">
+                    </div>
+                    <div class="row inline">
+                        <label>სქესი:</label><br>
+                        <input type="radio" name="gender" id="m" value="m">
+                        <label for="m">მამრობითი</label>
+                        <input type="radio" name="gender" id="f" value="f">
+                        <label for="f">მდედრობითი</label>
+                    </div>
+                </fieldset>
+                <fieldset>
+                     <legend> დამატებითი ინფორმაცია</legend>
+
+                     <div class="row">
+                        <label for="sity"> ქალაქი</label>
+                        <select name=" city" id="sity">
+                            <option value="თბილისი">თბილისი</option>
+                            <option value="ზუგდიდ">ზუგდიდი</option>
+                            <option value="ბათუმი">ბათუმი</option>
+                        </select>
+                    </div>
+                    <div>
+                        <lable for="photo">ფოტო</lable>
+                        <input type="file" name="photo" id="photo">
+                    </div>
+                    <div class="row">
+                        <label for="msg"> კომენტარი</label>
+                        <textarea name="msg" id="msg" rows="4" cols="30" placeholder="დაწერე..."></textarea>
+                    </div>
+                    <div class="row inline">
+                        <input type="checkbox" name="agree" id="agree" required>
+                        <label for="agree"> ვეთანხმები წესებს</label>
+                    </div>
+                    </fieldset>
+                    <input type="submit" value="გაგზავნა">
+                    <button type="reset" class="secondary"> გასუფთავება</button>
+                    <button type="button">just button</button>
+
+                    <p>&middot; HTML &amp; CSS</p>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
